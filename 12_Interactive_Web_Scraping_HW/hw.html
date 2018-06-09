@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>UFO Sightings Search</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0/darkly/bootstrap.min.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="jumbotron" )>
+      <div class="container">
+        <h1>UFO SIGHTINGS</h1>
+      </div>
+    </div>
+  <div></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="form-group">
+          <input type="text" class="form-control" id="date" placeholder="Date: M/D/YEAR">
+          <input type="text" class="form-control" id="city" placeholder="City">
+          <input type="text" class="form-control" id="state" placeholder="State: XX">
+          <input type="text" class="form-control" id="country" placeholder="Country: XX">
+          <input type="text" class="form-control" id="shape" placeholder="Shape">
+          <a id="search" class="btn btn-default">Search</a>
+          <a id="reset" class="btn btn-default">RESET DATA</a>
+        </div>
+      </div>
+      <div class = "col-md-8">
+        <div class="info">
+        <p>Use the form on the left to search for UFO sightings by DATE, CITY, STATE, COUNTRY, or SHAPE
+        (of the flying object). Fill in as many or as few fields as you would like before hitting the Search
+        button. When you are done looking at the table of results, hit the RESET DATA button to clear the table
+        and begin a new search.</p>
+          </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>City</th>
+                <th>State</th>
+                <th>Country</th>
+                <th>Shape</th>
+                <th>Duration</th>
+                <th>Comment</th>
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="data/data.js" type="text/javascript"></script>
+  <script src="hw.js" type="text/javascript"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  
+</body>
+
+</html>
